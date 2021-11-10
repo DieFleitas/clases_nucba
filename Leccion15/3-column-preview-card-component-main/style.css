@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  /* : (paragraphs) */
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  /* (background, headings, buttons) */
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1440px) {
+  body {
+      background-color: var(--Very-light-gray);
+      border: 1px solid black;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 71%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .sub__container {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 80%;
+    height: 95%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+
+  }
+
+  .sedan__card {
+    background-color: var(--Bright-orange);
+    height: 100%;
+  }
+
+ 
+
+  .suv__card {
+    background-color: var(--Dark-cyan);
+    height: 100%;
+  }
+
+  .luxury__card {
+    background-color: var(--Very-dark-cyan);
+    height: 100%;
+  }
+
+  .sub__container img {
+    padding: 15px 20px;
+    width: 50%;
+    border: 1px solid black;
+  }
+
+  .sub__container .card__title {
+    border: 1px solid black;
+
+  }
+  .sub__container .card__description {
+    border: 1px solid black;
+
+  }
+  .sub__container .card__button {
+    border: 1px solid black;
+
+  }
+  .sub__container .card__button .card__link {
+    border: 1px solid black;
+
+  }
+
+
+
+}
