@@ -1,0 +1,45 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* PRYMARY */
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /* NEUTRAL */
+    --dark-gray: hsl(0, 0%, 59%);
+
+    /* FUENTE */
+
+    --tipografia:'Kumbh Sans';
+
+}
+
+
+    
+    body {
+        font-family: var(--tipografia, sans-serif);
+        background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+        background-color: var(--dark-cyan);
+        background-repeat: no-repeat, no-repeat;
+        background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+
+    
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .card {
+    }
